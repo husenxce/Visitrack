@@ -1,0 +1,36 @@
+.stats-info-container{
+	margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 500px;
+}
+
+.stats-info-heading{
+	text-align: center;
+}
+
+.stats-info-table table, th, td{
+	border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.stats-info-table > table > thead > tr th{
+	width: 250px;
+    font-weight: normal;
+}
+
+.stats-info-table > table > tbody > tr{
+	border-top: 1px solid #000;
+}
+
+.stats-info-table > table > tbody > tr td{
+	font-weight: normal;
+	max-width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.stats-info-table > table > tbody > tr td:nth-child(2){
+	text-align: center;
+}
